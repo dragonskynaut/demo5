@@ -1,0 +1,1 @@
+create table user2(id serial primary key auto_increment, username varchar(255), password varchar(255))

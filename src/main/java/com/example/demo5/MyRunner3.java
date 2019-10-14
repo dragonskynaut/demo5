@@ -15,7 +15,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Component
 public class MyRunner3 implements CommandLineRunner {
     private static final Logger LOGGER = LoggerFactory.getLogger(MyRunner3.class);
     @Autowired
