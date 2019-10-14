@@ -172,3 +172,9 @@ data.sql => DML
 ---------------------------------------------------------
 
 ctrl + alt + l: code aline
+keyword + shift + shift: 查詢class
+
+# jpa---------------------------------------------------------
+android AAC, ROOM eclipselink, sqllite, datanulevs, sql alchemy
+
+
