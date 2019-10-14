@@ -1,0 +1,137 @@
+
+webpack
+D3s D3j
+poltly
+npm
+jira
+https://github.com/adobe-fonts/source-code-pro
+https://start.spring.io/
+
+plugin
+spring web (web service)
+thymeleat (html to parameter)
+
+# gradle proxy
+C:\Users\chtti\.gradle\gradle.propeties
+systemProp.http.proxyHost=proxy.cht.com.tw
+systemProp.http.proxyPort=8080
+systemProp.https.proxyHost=proxy.cht.com.tw
+systemProp.https.proxyPort=8080
+
+gradlew dependencies
+
+ant-maven
+   -gradle (auto build)
+   --ivy
+
+gradlew bootrun
+gradlew jar bootjar
+
+# maven proxy
+maven=>importing
+-DproxySet=true -DproxyHost=proxy.cht.com.tw -DproxyPort=8080
+
+project/.mvn/jvm.config
+-Dhttp.proxyHost=proxy.cht.com.tw
+-Dhttp.proxyPort=8080
+-Dhttps.proxyHost=proxy.cht.com.tw
+-Dhttps.proxyPort=8080
+
+mvnw dependency:tree
+
+jackson: json over http
+
+
+# git
+git config --global http.proxy http://proxy.cht.com.tw:8080
+.git/config
+git clone https://github.com/dragonskynaut/demo1.git
+
+git config --global user.name dragonskynaut
+git config --global user.email dragonskynaut@gmail.com
+
+VCS=>version contral setup
+
+dagger2 (google)
+dependency injection
+
+
+download: adv rest, curl
+
+shift+shift: all find
+ctrl+alt+L: line code
+alt+Enter: fix
+
+# controller
+@Controller: return default resources/templates/"page" "MVC"
+@RestController: return json
+@Component: springboot start would be setup & run
+@Scope("prototype") be not sigleton
+
+@Service
+@autoWired=>applicationContext=>getBean @config,@Bean
+sigleton wired, may referend same one bean
+@Value("WARNING!!")
+
+
+@Autowired
+@Qualifier("vip") when implement multipule
+
+view
+alt+9: version control
+green: add, blue: modified
+alt+7: structure
+
+autowired: access car, and would with component(wheel & engine)
+
+
+confirm to bean: construct, getter & setter
+
+
+#front side
+node.js
+visual studio code
+
+
+npm config set http.proxy http://proxy.cht.com.tw:8080
+npm config set https.proxy http://proxy.cht.com.tw:8080
+
+npm config set http-proxy http://proxy.cht.com.tw:8080
+npm config set https-proxy http://proxy.cht.com.tw:8080
+npm update -g
+npm install -g --unsafe-perm node-red
+
+D:\intellj\demo1\src\main\resources\static>
+npm init -y
+# webContent package
+npm i webpack --save-dev
+# 新js語法轉換
+npm i @babel/preset-env @babel/preset-react --save-dev
+npm i babel-loader --save-dev
+npm i @babel/core --save-dev
+npm run watch (重新打包,有變更時)
+jsx,scss=>webpack=>js <=html<=controller
+
+# react
+npm i react react-dom --save-dev
+# mertireal component
+npm install material-component-web  --save-dev
+npm install --save-dev webpack-dev-server css-loader sass-loader
+npm install --save-dev node-sass extract-loader file-loader
+npm install (reinstall all from version)
+npm run build
+npm install @material/button --save-dev
+npm install --save-dev autoprefixer postcss-loader
+
+
+Wrote to D:\intellj\demo1\src\main\resources\static\package.json:
+git.ignore (node git ignore)
+
+webpack
+status/webpack.config.js
+setup
+# UI
+material component for the web
+
+netflix rxjava (react java)
+
